@@ -24,7 +24,7 @@ process.load("ElectroWeakAnalysis.Skimming.zMuMu_SubskimPathsUserData_cff")
 
 # Output module configuration
 process.load("ElectroWeakAnalysis.Skimming.zMuMuSubskimOutputModuleUserData_cfi")
-process.zMuMuSubskimOutputModule.fileName = 'file:testZMuMuSubskim.root'
+process.zMuMuSubskimOutputModule.fileName = 'file:testZMuMuSubskimUserData.root'
 
 process.outpath = cms.EndPath(process.zMuMuSubskimOutputModule)
 
